@@ -2,7 +2,19 @@
 h1{
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(11, 80, 145);
+    color: blueviolet;
 }
-
-
+.demo{ 
+     float:left;  
+     list-style-type: none;
+     padding: 8px; ;
+}
+.S1{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(255,240,245,.8) ;
+    width: 400px;
+    height:135px;
+    border-radius: 10%;
+    border-color: blueviolet;
+    border-width: 2px;
+}
