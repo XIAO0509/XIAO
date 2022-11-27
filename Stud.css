@@ -7,12 +7,13 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(132, 23, 233);
 }
-.demo{ 
+.demo1,.demo2{ 
      float:left;  
      list-style-type: none;
      padding: 8px; ;
 }
-.S1{
+.S1,.S2{
+    float: left;
     font-family: 'Times New Roman', Times, serif;
     background: rgba(255,240,245,.8) ;
     width: 400px;
