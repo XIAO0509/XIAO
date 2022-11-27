@@ -1,8 +1,11 @@
 @charset "UTF-8";
+body{
+    background-color: rgba(209, 252, 243,.5);
+}
 h1{
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
-    color: blueviolet;
+    color: rgb(132, 23, 233);
 }
 .demo{ 
      float:left;  
