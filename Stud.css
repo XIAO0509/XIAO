@@ -1,18 +1,18 @@
 @charset "UTF-8";
 body{
-    background-color: rgba(209, 252, 243,.5);
+    background-color: rgba(209, 252, 243);
 }
 h1{
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(132, 23, 233);
 }
-.demo1,.demo2,.demo3,.demo4,.demo5{ 
+.demo{ 
      float:left;  
      list-style-type: none;
      padding: 8px; ;
 }
-.S1,.S2,.S3,.S4,.S5,.S6{
+.S{
     float: left;
     margin: 5px;
     font-family: 'Times New Roman', Times, serif;
