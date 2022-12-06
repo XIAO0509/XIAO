@@ -6,7 +6,7 @@ window.onload = function () {
     for (let i = 0; i < studData.length; i++) {
         content += ` <fieldset class="S">
         <legend> ${studData[i].st_number}</legend>
-        <img ${studData[i].st_photo} style="float:left" width="95px" height="120px">
+        <img src=${studData[i].st_photo} style="float:left" width="95px" height="120px">
         <ul class="demo">  
         <li><b>ФИО: </b>${studData[i].st_name}</li>
         <li><b>Дата рождения: </b>${studData[i].st_birth}</li>  
