@@ -1,23 +1,33 @@
+const studData=[
+    {
+        st_number:,
+        st_photo:,
+        st_name:,
+        st_birth:,
+        st_email:, 
+        st_phone:,
+
+    }]
 window.onload = function () {
     console.log('Загрузилось')
-    let personElem = document.getElementById('S')
+    let studElem = document.getElementById('S')
     let content = ''
     for (let i = 0; i < userData.length; i++) {
         content += `</div>
-                    <legend id="stud_number"> Студент 1</legend>
-                    <img id="stud_photo" src="1.jpg" style="float:left" width="95px" height="120px">
-                    <ul class="demo">  
-                        <li id="name"><b id="b">ФИО: </b>Ясевича Лидия Трофимовна </li>
-                        <li id="b-day"><b id="b">Дата рождения: </b>08.10.2001</li>  
-                        <li id="con"> <b>Контакты:</b>
-                            <ul id=con_in style="list-style-type: none;">
-                                <li id="email">E-mail: <a id=link_email href="mailto:lidia080808@gmail.com"style=text-decoration:none;>lidia080808@gmail.com</a> </li>
-                                <li id="phone">Телефон: +7925-252-89-10</li>
+                    <legend> ${studData[i].st_number}</legend>
+                    <img ${studData[i].st_photo} style="float:left" width="95px" height="120px">
+                    <ul>  
+                        <li><b>ФИО: </b>${studData[i].st_name}</li>
+                        <li><b>Дата рождения: </b>${studData[i].st_birth}</li>  
+                        <li> <b>Контакты:</b>
+                            <ul style="list-style-type: none;">
+                                <li>E-mail: <a id=link_email href="mailto:${studData[i].st_email}"style=text-decoration:none;>${studData[i].st_email}</a> </li>
+                                <li>Телефон:${studData[i].st_phone}</li>
                             </ul>
                         </li>
                     </ul>` 
     }
-    personElem.innerHTML = content
+    studElem.innerHTML = content
 }
 
 console.log('Старт')
