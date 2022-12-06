@@ -1,11 +1,11 @@
 @charset "UTF-8";
 body{
-    background-color: rgba(209, 252, 243);
+    background-color:whitesmoke;
 }
 h1{
     text-align:center;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(132, 23, 233);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }
 .demo{ 
      float:left;  
@@ -15,11 +15,11 @@ h1{
 .S{
     float: left;
     margin: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    background: rgba(255,240,245,.8) ;
-    width: 390px;
-    height:135px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white ;
+    width: 400px;
+    height: 150px;
     border-radius: 10%;
-    border-color: blueviolet;
+    border-color:dimgray;
     border-width: 2px;
 }
