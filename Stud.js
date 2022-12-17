@@ -20,6 +20,8 @@ window.onload = function () {
         </fieldset>` 
     }
     studElem.innerHTML = content
+    $('fieldset.S:even').css('background-color','rgb(213, 245, 227)')//светло-зелённый
+    $('fieldset.S:odd').css('background-color','rgb(250, 219, 216)')//светло-красный
 }
 
 console.log('Старт')
