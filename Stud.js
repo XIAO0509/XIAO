@@ -20,6 +20,7 @@ window.onload = function () {
         </fieldset>` 
     }
     studElem.innerHTML = content
+    $('fieldset.S').css('background-color','rgb(250, 219, 216)')//светло-красный
 }
 
 console.log('Старт')
