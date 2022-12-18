@@ -20,7 +20,10 @@ window.onload = function () {
         </fieldset>` 
     }
     studElem.innerHTML = content
-    $('fieldset.S').css('background-color','rgb(250, 219, 216)')//светло-красный
+    $('.S').css('background-color','rgb(250, 219, 216)')//светло-красный
+    $('.S').on('mousedown',function(e){
+        $(e.target).css('background-color','rgb(165, 105, 189) ')//фиолетовый
+    })
 }
 
 console.log('Старт')
