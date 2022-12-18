@@ -21,6 +21,9 @@ window.onload = function () {
     }
     studElem.innerHTML = content
     $('fieldset.S').css('background-color','rgb(213, 245, 227)')//светло-зелённый
+    $('.S').on('mousedown',function(e){
+        $(e.target).css('background-color','rgb(174, 214, 241)')//голубой
+    })
 }
 console.log('Старт')
 const studData=[
