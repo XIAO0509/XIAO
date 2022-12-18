@@ -20,8 +20,11 @@ window.onload = function () {
         </fieldset>` 
     }
     studElem.innerHTML = content
-    $('fieldset.S:even').css('background-color','rgb(213, 245, 227)')//светло-зелённый
-    $('fieldset.S:odd').css('background-color','rgb(250, 219, 216)')//светло-красный
+    $('.S:even').css('background-color','rgb(213, 245, 227)')//светло-зелённый
+    $('.S:odd').css('background-color','rgb(250, 219, 216)')//светло-красный
+    $('.S').on('click',function(e){
+        $(e.target).css('background-color','rgb(214, 219, 223)')//серый
+    })
 }
 
 console.log('Старт')
